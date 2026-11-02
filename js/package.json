@@ -1,0 +1,33 @@
+{
+  "name": "interest-rate-decisions",
+  "version": "1.0.0",
+  "description": "Central bank interest rates and decisions (Fed, ECB, BoE, BoJ, BoC, RBA, RBNZ, SNB, Norges Bank, Riksbank): today's rates, the next meetings and every decision since 2008. No dependencies.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "bin": {
+    "interest-rate-decisions": "./cli.js"
+  },
+  "files": ["index.js", "index.d.ts", "cli.js", "README.md", "LICENSE"],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test.js"
+  },
+  "keywords": ["interest rates", "central bank", "fed", "fomc", "ecb", "bank of england", "forex", "monetary policy", "economic calendar", "rate decision"],
+  "homepage": "https://interestratedecision.com/central-bank-data/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InterestRateDecision/interest-rate-decisions.git",
+    "directory": "js"
+  },
+  "author": "InterestRateDecision.com (https://interestratedecision.com)",
+  "license": "MIT"
+}

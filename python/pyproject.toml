@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "interest-rate-decisions"
+version = "1.0.0"
+description = "Central bank interest rates and decisions (Fed, ECB, BoE, BoJ, BoC, RBA, RBNZ, SNB, Norges Bank, Riksbank): today's rates, the next meetings and every decision since 2008."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "InterestRateDecision.com" }]
+keywords = ["interest rates", "central bank", "fed", "fomc", "ecb", "forex", "monetary policy", "economic calendar"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Topic :: Office/Business :: Financial",
+  "Topic :: Office/Business :: Financial :: Investment",
+  "Intended Audience :: Financial and Insurance Industry",
+  "Intended Audience :: Science/Research",
+]
+dependencies = []
+
+[project.optional-dependencies]
+pandas = ["pandas"]
+
+[project.scripts]
+interest-rate-decisions = "interest_rate_decisions.__main__:main"
+
+[project.urls]
+Homepage = "https://interestratedecision.com/central-bank-data/"
+Source = "https://github.com/InterestRateDecision/interest-rate-decisions/tree/main/python"
