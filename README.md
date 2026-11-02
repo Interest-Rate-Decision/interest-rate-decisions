@@ -40,4 +40,4 @@ Standard library only; pandas optional.
 
 ## The data
 
-The same files as CSV and JSON: [central-bank-interest-rates](https://github.com/InterestRateDecision/central-bank-interest-rates). Free to use in anything, including commercial work, with a visible link to [InterestRateDecision.com](https://interestratedecision.com/) ([terms](https://interestratedecision.com/central-bank-data/#licence)). Code: MIT.
+The same files as CSV and JSON: [central-bank-interest-rates](https://github.com/Interest-Rate-Decision/central-bank-interest-rates). Free to use in anything, including commercial work, with a visible link to [InterestRateDecision.com](https://interestratedecision.com/) ([terms](https://interestratedecision.com/central-bank-data/#licence)). Code: MIT.

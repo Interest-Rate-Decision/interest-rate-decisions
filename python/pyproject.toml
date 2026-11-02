@@ -29,4 +29,4 @@ interest-rate-decisions = "interest_rate_decisions.__main__:main"
 
 [project.urls]
 Homepage = "https://interestratedecision.com/central-bank-data/"
-Source = "https://github.com/InterestRateDecision/interest-rate-decisions/tree/main/python"
+Source = "https://github.com/Interest-Rate-Decision/interest-rate-decisions/tree/main/python"

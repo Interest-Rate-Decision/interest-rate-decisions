@@ -25,7 +25,7 @@
   "homepage": "https://interestratedecision.com/central-bank-data/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/InterestRateDecision/interest-rate-decisions.git",
+    "url": "git+https://github.com/Interest-Rate-Decision/interest-rate-decisions.git",
     "directory": "js"
   },
   "author": "InterestRateDecision.com (https://interestratedecision.com)",
