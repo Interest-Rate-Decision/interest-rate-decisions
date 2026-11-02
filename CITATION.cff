@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it and link to https://interestratedecision.com"
+type: software
+title: "interest-rate-decisions: central bank interest rates for JavaScript and Python"
+abstract: "Clients for today's central bank policy rates, the next central bank meetings and every interest rate decision since 2008 of the Fed, ECB, Bank of England, Bank of Japan, Bank of Canada, RBA, RBNZ, SNB, Norges Bank and Riksbank."
+authors:
+  - name: "InterestRateDecision.com"
+    website: "https://interestratedecision.com"
+version: "1.0.0"
+date-released: "2026-11-02"
+license: MIT
+url: "https://interestratedecision.com/central-bank-data/"
+repository-code: "https://github.com/Interest-Rate-Decision/interest-rate-decisions"
+keywords: [interest rates, central banks, API, FOMC, ECB, economic calendar, python, javascript]
